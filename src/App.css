@@ -1,61 +1,99 @@
-body{
+html,
+body,
+#root {
+    min-height: 100vh;
+}
+
+body {
     background: #1E1E1E;
     color: #fff;
     font-family: "Inter", sans-serif;
 }
 
-
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Inter", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
-.movies{
+.wrapper {
+    min-height: 100vh;
+
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-left: auto;
-    padding-right: 43px;
-    font-weight: 400;
+    flex-direction: column;
 }
 
-main{
+main {
+    flex: 1;
+
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0px 40px;
-    padding-top: 50px;
+
+    padding: 50px 40px;
 }
 
-.filter h4{
+.filter {
+    width: 220px;
+}
+
+.filter h4 {
     margin-bottom: 15px;
-    margin-right: 30px;
+
     font-size: 18px;
     font-weight: 400;
+
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-.filter{
-    width: 90%;
+.filter h4:hover {
+    color: red;
 }
 
-.movie{
+.active {
+    color: red;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    width: 100%;
+}
+
+.movie {
     width: 180px;
-    margin-bottom: 22px;
-    margin-right: 30px;
 }
-.movie img{
+
+.movie img {
+    width: 100%;
     margin-bottom: 15px;
+
+    border-radius: 8px;
 }
-h2{
+
+.movie h2 {
     font-size: 15px;
     font-weight: 400;
-    font-size: 15px;
+
     text-align: center;
-    color: #fff;
+
+    margin-bottom: 10px;
 }
-.active{
-    color: red;
+
+.movie p {
+    text-align: center;
+    color: #bdbdbd;
+}
+
+.footer {
+    padding: 20px;
+
+    text-align: center;
+
+    border-top: 1px solid #333;
 }

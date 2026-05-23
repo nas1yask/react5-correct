@@ -10,7 +10,7 @@ function Search({search, setSearch}) {
                 </aside>
                 <div className="btns">
                     <button>Sign Up</button>
-                    <button> <i class="fa-solid fa-lock"></i> Sign In</button>
+                    <button> <i className="fa-solid fa-lock"></i> Sign In</button>
                 </div>
             </div>
         </>
