@@ -1,0 +1,244 @@
+{
+  "movies": [
+    {
+      "image": "Rectangle 23.png",
+      "title": "BODIES: LIMITED SERIES",
+      "year": 2023,
+      "genre": "Crime, Drama, Thriller",
+      "actors": [
+        "Stephen Graham",
+        "Shira Haas",
+        "Amaka Okafor"
+      ],
+      "description": "Detectives from different timelines investigate the same mysterious murder in London."
+    },
+    {
+      "image": "Rectangle 24.png",
+      "title": "THE FALL OF THE HOUSE OF USHER: LIMITED SERIES",
+      "year": 2023,
+      "genre": "Horror, Drama, Mystery",
+      "actors": [
+        "Bruce Greenwood",
+        "Carla Gugino",
+        "Mark Hamill"
+      ],
+      "description": "A wealthy family faces terrifying consequences after dark secrets from their past return."
+    },
+    {
+      "image": "Rectangle 25.png",
+      "title": "LESSONS IN CHEMISTRY: SEASON 1",
+      "year": 2023,
+      "genre": "Drama",
+      "actors": [
+        "Brie Larson",
+        "Lewis Pullman",
+        "Aja Naomi King"
+      ],
+      "description": "A talented scientist becomes the host of a cooking show and inspires women in the 1960s."
+    },
+    {
+      "image": "Rectangle 26.png",
+      "title": "GOOSEBUMPS: SEASON 1",
+      "year": 2023,
+      "genre": "Fantasy, Horror, Adventure",
+      "actors": [
+        "Justin Long",
+        "Zack Morris",
+        "Isa Briones"
+      ],
+      "description": "Teenagers accidentally unleash supernatural forces and dangerous monsters."
+    },
+    {
+      "image": "Rectangle 27.png",
+      "title": "LOKI: SEASON 2",
+      "year": 2023,
+      "genre": "Action, Fantasy, Sci-Fi",
+      "actors": [
+        "Tom Hiddleston",
+        "Owen Wilson",
+        "Sophia Di Martino"
+      ],
+      "description": "Loki travels through time while trying to save the multiverse from destruction."
+    },
+    {
+      "image": "Rectangle 28.png",
+      "title": "SCAVENGERS REIGN: SEASON 1",
+      "year": 2023,
+      "genre": "Animation, Sci-Fi, Adventure",
+      "actors": [
+        "Sunita Mani",
+        "Wunmi Mosaku",
+        "Alia Shawkat"
+      ],
+      "description": "Survivors explore a strange alien planet after a spaceship crash."
+    },
+    {
+      "image": "Rectangle 29.png",
+      "title": "FELLOW TRAVELERS: SEASON 1",
+      "year": 2023,
+      "genre": "Drama, Romance",
+      "actors": [
+        "Matt Bomer",
+        "Jonathan Bailey",
+        "Allison Williams"
+      ],
+      "description": "Two men begin a secret relationship during a tense political period in America."
+    },
+    {
+      "image": "Rectangle 30.png",
+      "title": "GEN V: SEASON 1",
+      "year": 2023,
+      "genre": "Action, Comedy, Superhero",
+      "actors": [
+        "Jaz Sinclair",
+        "Chance Perdomo",
+        "Lizze Broadway"
+      ],
+      "description": "Young superheroes compete at a special university while uncovering dark secrets."
+    },
+    {
+      "image": "Rectangle 31.png",
+      "title": "OUR FLAG MEANS DEATH: SEASON 2",
+      "year": 2023,
+      "genre": "Comedy, Adventure",
+      "actors": [
+        "Rhys Darby",
+        "Taika Waititi",
+        "Con O'Neill"
+      ],
+      "description": "An aristocrat becomes a pirate captain and forms an unusual friendship with Blackbeard."
+    },
+    {
+      "image": "Rectangle 32.png",
+      "title": "30 COINS: SEASON 2",
+      "year": 2023,
+      "genre": "Horror, Thriller, Fantasy",
+      "actors": [
+        "Eduard Fernández",
+        "Megan Montaner",
+        "Miguel Ángel Silvestre"
+      ],
+      "description": "A priest battles supernatural evil connected to cursed ancient coins."
+    },
+    {
+      "image": "Rectangle 33.png",
+      "title": "UPLOAD: SEASON 3",
+      "year": 2023,
+      "genre": "Comedy, Sci-Fi, Romance",
+      "actors": [
+        "Robbie Amell",
+        "Andy Allo",
+        "Kevin Bigley"
+      ],
+      "description": "People can upload their consciousness into a digital afterlife after death."
+    },
+    {
+      "image": "Rectangle 34.png",
+      "title": "THE ORDER: SEASON 2",
+      "year": 2020,
+      "genre": "Fantasy, Drama, Horror",
+      "actors": [
+        "Jake Manley",
+        "Sarah Grey",
+        "Adam DiMarco"
+      ],
+      "description": "A college student joins a secret magical society and faces dark forces."
+    },
+    {
+      "image": "Rectangle 35.png",
+      "title": "MIDNIGHT MASS: LIMITED SERIES",
+      "year": 2021,
+      "genre": "Horror, Drama, Mystery",
+      "actors": [
+        "Zach Gilford",
+        "Kate Siegel",
+        "Hamish Linklater"
+      ],
+      "description": "A small island community experiences strange miracles after a mysterious priest arrives."
+    },
+    {
+      "image": "Rectangle 36.png",
+      "title": "RICK AND MORTY: SEASON 7",
+      "year": 2023,
+      "genre": "Animation, Comedy, Sci-Fi",
+      "actors": [
+        "Ian Cardoni",
+        "Harry Belden",
+        "Sarah Chalke"
+      ],
+      "description": "A scientist and his grandson travel across dimensions and face bizarre adventures."
+    },
+    {
+      "image": "Rectangle 37.png",
+      "title": "WOLF LIKE ME: SEASON 2",
+      "year": 2023,
+      "genre": "Comedy, Drama, Fantasy",
+      "actors": [
+        "Isla Fisher",
+        "Josh Gad",
+        "Ariel Donoghue"
+      ],
+      "description": "A couple tries to build a relationship while hiding supernatural secrets."
+    },
+    {
+      "image": "Rectangle 38.png",
+      "title": "INVASION: SEASON 2",
+      "year": 2023,
+      "genre": "Sci-Fi, Drama, Thriller",
+      "actors": [
+        "Golshifteh Farahani",
+        "Shioli Kutsuna",
+        "Shamier Anderson"
+      ],
+      "description": "People around the world struggle to survive during an alien invasion."
+    },
+    {
+      "image": "Rectangle 39.png",
+      "title": "THE HAUNTING OF HILL HOUSE: MINISERIES",
+      "year": 2018,
+      "genre": "Horror, Drama, Mystery",
+      "actors": [
+        "Victoria Pedretti",
+        "Oliver Jackson-Cohen",
+        "Michiel Huisman"
+      ],
+      "description": "A family returns to the haunted house connected to their traumatic childhood memories."
+    },
+    {
+      "image": "Rectangle 40.png",
+      "title": "GET GOTTI: SEASON 1",
+      "year": 2023,
+      "genre": "Documentary, Crime",
+      "actors": [
+        "John Gotti",
+        "Bruce Cutler",
+        "Philomena Gotti"
+      ],
+      "description": "A documentary about mafia boss John Gotti and the investigations against him."
+    },
+    {
+      "image": "Rectangle 41.png",
+      "title": "THE MORNING SHOW: SEASON 3",
+      "year": 2023,
+      "genre": "Drama",
+      "actors": [
+        "Jennifer Aniston",
+        "Reese Witherspoon",
+        "Billy Crudup"
+      ],
+      "description": "Television journalists deal with scandals, competition, and personal struggles."
+    },
+    {
+      "image": "Rectangle 42.png",
+      "title": "THE MIDNIGHT CLUB: SEASON 1",
+      "year": 2022,
+      "genre": "Horror, Drama, Mystery",
+      "actors": [
+        "Iman Benson",
+        "Igby Rigney",
+        "Ruth Codd"
+      ],
+      "description": "Teenagers at a hospice gather every night to tell scary stories and witness supernatural events."
+    }
+  ]
+}

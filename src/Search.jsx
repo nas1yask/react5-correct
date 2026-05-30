@@ -1,6 +1,10 @@
+import { useState } from 'react';
 import './Search.css'
 
 function Search({search, setSearch}) {
+
+    // const [modal, setModal] = useState('none')
+
     return(
         <>
             <div className='search'>
@@ -10,7 +14,7 @@ function Search({search, setSearch}) {
                 </aside>
                 <div className="btns">
                     <button>Sign Up</button>
-                    <button> <i className="fa-solid fa-lock"></i> Sign In</button>
+                    <button><i className="fa-solid fa-lock"></i> Sign In</button>
                 </div>
             </div>
         </>

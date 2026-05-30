@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Search from './Search'
+import Footer from './Footer'
+import Modal from './Modal'
 
 function App() {
   const [movies, setMovies] = useState([])
@@ -77,9 +79,8 @@ function App() {
 
       </main>
 
-      <footer className="footer">
-        <p>Hello guys</p>
-      </footer>
+      <Footer/>
+      <Modal/>
 
     </div>
   )
