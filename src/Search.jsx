@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import './Search.css'
 
-function Search({search, setSearch}) {
-
-    // const [modal, setModal] = useState('none')
+function Search({search, setSearch, openSignIn, openSignUp}) {
 
     return(
         <>
@@ -13,8 +11,8 @@ function Search({search, setSearch}) {
                     <input type="search" placeholder='Search...' value={search} onChange={(e)=> setSearch(e.target.value)}/>
                 </aside>
                 <div className="btns">
-                    <button>Sign Up</button>
-                    <button><i className="fa-solid fa-lock"></i> Sign In</button>
+                    <button onClick={openSignUp}>Sign Up</button>
+                    <button onClick={openSignIn}><i className="fa-solid fa-lock"></i>Sign In</button>
                 </div>
             </div>
         </>

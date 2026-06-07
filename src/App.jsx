@@ -9,6 +9,21 @@ function App() {
   const [search, setSearch] = useState("")
   const [activeGenre, setActiveGenre] = useState("All")
 
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [modalType, setModalType] = useState('signup')
+
+  const [users, setUsers] = useState([])
+
+  const openSignUp = () => {
+    setModalType('signup')
+    setIsModalOpen(true)
+  }
+
+  const openSignIn = () => {
+    setModalType('signin')
+    setIsModalOpen(true)
+  }
+
   useEffect(() => {
     fetch('/films.json')
       .then(response => response.json())
@@ -37,6 +52,8 @@ function App() {
       <Search
         search={search}
         setSearch={setSearch}
+        openSignIn={openSignIn}
+        openSignUp={openSignUp}
       />
 
       <main>
@@ -80,8 +97,10 @@ function App() {
       </main>
 
       <Footer/>
-      <Modal/>
-
+      {
+        isModalOpen && (
+        <Modal modalType={modalType} setIsModalOpen={setIsModalOpen} users={users} setUsers={setUsers}/>
+      )}
     </div>
   )
 }
