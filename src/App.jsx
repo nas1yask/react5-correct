@@ -3,6 +3,7 @@ import './App.css'
 import Search from './Search'
 import Footer from './Footer'
 import Modal from './Modal'
+import MovieInfo from './MovieInfo'
 
 function App() {
   const [movies, setMovies] = useState([])
@@ -44,7 +45,7 @@ function App() {
     return titleMatch && genreMatch
   })
 
-  const genres = ['All', 'Crime', 'Drama', 'Thriller']
+  const genres = ['All', 'Crime', 'Drama', 'Thriller', 'Horror', 'Mystery', 'Fantasy', 'Adventure', 'Action', 'Sci-Fi', 'Animation', 'Romance', 'Comedy', 'Superhero', 'Documentary']
 
   return (
     <div className="wrapper">
@@ -55,6 +56,8 @@ function App() {
         openSignIn={openSignIn}
         openSignUp={openSignUp}
       />
+
+     <MovieInfo/>
 
       <main>
 
